@@ -1,0 +1,9 @@
+.headerContainer {
+    margin-left: 10px;
+    width: 43.645833333333336vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    font-size: 60px;
+    opacity: .8;
+}
