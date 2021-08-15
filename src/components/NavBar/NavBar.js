@@ -6,19 +6,18 @@ import AboutMeView from "../../views/Root/aboutMeView";
 import ContactView from "../../views/Root/ContactView";
 import PhotoGalleryView from "../../views/Root/PhotoGalleryView";
 
-class NavBar extends Component {
-    render(){
+const NavBar = ({text1, text2, text3}) => {
   return (
     <div>
       <ul className="wrapper">
         <li>
-          <Link to="/about">O mnie</Link>
+          {text1=="O mnie" ? <Link to="/about">{text1}</Link> : <Link to="/">{text1}</Link>}
         </li>
         <li>
-          <Link to="/gallery">Galeria</Link>
+        {text2=="O mnie" ? <Link to="/about">{text2}</Link> : <Link to="/gallery">{text2}</Link>}
         </li>
         <li>
-          <Link to="/contact">Kontakt</Link>
+          <Link to="/contact">{text3}</Link>
         </li>
       </ul>
 
@@ -26,7 +25,7 @@ class NavBar extends Component {
       </div>
   );
 }
-}
+
 export default NavBar;
 
 
