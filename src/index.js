@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import Root from './views/Root/Root';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import './fontello/css/fontello.css'
+
 
 ReactDOM.render(
   <React.StrictMode>
