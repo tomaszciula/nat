@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from 'react'
 import Gallery from 'react-photo-gallery'
 
+
 const Fetch = url => new Promise(resolve => {
   setTimeout(() => resolve([
     `https://picsum.photos/id/10/400`,

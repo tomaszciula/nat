@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import NavBar from "../../components/NavBar/NavBar";
 import "./Views.css";
 
@@ -15,23 +16,19 @@ const ContactView = () => {
           <div className="contactView__container__wrapper--contactsWrapper">
             <div className="contactView__container__wrapper__contactsWrapper--contactElement">
             <i className="icon-mobile-alt" style={{ fontSize: "140px"}} /> 
-            <h3>+48 0500 2 900</h3>
             </div>
             <div className="contactView__container__wrapper__contactsWrapper--contactElement">
-              <i className="icon-mail" style={{ fontSize: "140px"}} /> 
-              <h3>natalianatalia@natalia.nat</h3>
+              <i className="icon-mail" style={{ fontSize: "120px"}} /> 
             </div>
             <div className="contactView__container__wrapper__contactsWrapper--contactElement">
-              <i className="demo-icon icon-mobile-alt" style={{ fontSize: "80px"}} /> 
-              <h3>natalianatalia@natalia.nat</h3>
+              <a href='https://www.facebook.com/natalia.strzelec.3'>
+            <i className="icon-facebook-rect" style={{ fontSize: "100px", color: "white"}} /> 
+            </a>
             </div>
             <div className="contactView__container__wrapper__contactsWrapper--contactElement">
-              <i className="icon-facebook-rect" style={{ fontSize: "30px"}} /> 
-              <i className="icon-instagram" style={{ fontSize: "30px"}} /> 
-              <i className="icon-twitter" style={{ fontSize: "30px"}} /> 
-              <i className="icon-tumblr" style={{ fontSize: "30px"}} /> 
-
-              <h3>natalianatalia@natalia.nat</h3>
+              <a href='https://instagram.com/pieskie.fotografie?utm_medium=copy_link'>
+              <i className="icon-instagram" style={{ fontSize: "120px", color: "white"}} /> 
+              </a>
             </div>
           </div>
         </div>

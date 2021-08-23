@@ -1,12 +1,12 @@
 
 .contactView__container {
-    /*
-    background-image: url('../../components/assets/213304549_165744992212255_5451117775096736736_n.jpg');
+    display: flex;
+    flex-flow: column;
+    background-image: url('../../components/assets/213679025_1118421601900977_960647103238963851_n.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    */
-    width: 100vw;
-    height: 100%;
+    width: auto;
+    height: 100vh;
 
 }
 .contactView__container--navbar {
@@ -18,12 +18,12 @@
     margin-left: 100px;
 }
 .contactView__container__wrapper--header {
-    align-items: center;
+    font-size: 30px;
     text-align: center;
-    justify-content: center;
     background-color: black;
     color: white;
-
+border-radius: 10%;
+height: auto;
 }
 .contactView__container__wrapper--contactsWrapper {
 display: flex;
