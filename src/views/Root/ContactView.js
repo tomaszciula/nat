@@ -15,14 +15,14 @@ const ContactView = () => {
 
           <div className="contactView__container__wrapper--contactsWrapper">
             <div className="contactView__container__wrapper__contactsWrapper--contactElement">
-            <i className="icon-mobile-alt" style={{ fontSize: "140px"}} /> 
+            <i className="icon-mobile-alt" style={{ fontSize: "50px"}} /> 
             </div>
             <div className="contactView__container__wrapper__contactsWrapper--contactElement">
-              <i className="icon-mail" style={{ fontSize: "120px"}} /> 
+              <i className="icon-mail" style={{ fontSize: "50px"}} /> 
             </div>
             <div className="contactView__container__wrapper__contactsWrapper--contactElement">
               <a href='https://www.facebook.com/natalia.strzelec.3'>
-            <i className="icon-facebook-rect" style={{ fontSize: "100px", color: "white"}} /> 
+            <i className="icon-facebook-rect" style={{ fontSize: "50px", color: "white"}} /> 
             </a>
             </div>
             <div className="contactView__container__wrapper__contactsWrapper--contactElement">
