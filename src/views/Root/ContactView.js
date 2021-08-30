@@ -11,11 +11,12 @@ const ContactView = () => {
       </div>
       <div className="contactView__container--wrapper">
         <div className="contactView__container__wrapper--header">
-          <h1>Kontakt do mnie</h1>
+        
 
           <div className="contactView__container__wrapper--contactsWrapper">
             <div className="contactView__container__wrapper__contactsWrapper--contactElement">
-            <i className="icon-mobile-alt" style={{ fontSize: "50px"}} /> 
+            <i className="icon-mobile-alt" style={{ fontSize: "80px"}} /> 
+            <h3>0 500 2 900</h3>
             </div>
             <div className="contactView__container__wrapper__contactsWrapper--contactElement">
               <i className="icon-mail" style={{ fontSize: "50px"}} /> 
@@ -27,7 +28,7 @@ const ContactView = () => {
             </div>
             <div className="contactView__container__wrapper__contactsWrapper--contactElement">
               <a href='https://instagram.com/pieskie.fotografie?utm_medium=copy_link'>
-              <i className="icon-instagram" style={{ fontSize: "120px", color: "white"}} /> 
+              <i className="icon-instagram" style={{ fontSize: "60px", color: "white"}} /> 
               </a>
             </div>
           </div>
