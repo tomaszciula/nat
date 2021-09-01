@@ -23,12 +23,12 @@ const ContactView = () => {
             </div>
             <div className="contactView__container__wrapper__contactsWrapper--contactElement">
               <a href='https://www.facebook.com/natalia.strzelec.3'>
-            <i className="icon-facebook-rect" style={{ fontSize: "50px", color: "white"}} /> 
+            <i className="icon-facebook-rect" style={{ fontSize: "50px"}} /> 
             </a>
             </div>
             <div className="contactView__container__wrapper__contactsWrapper--contactElement">
               <a href='https://instagram.com/pieskie.fotografie?utm_medium=copy_link'>
-              <i className="icon-instagram" style={{ fontSize: "60px", color: "white"}} /> 
+              <i className="icon-instagram" style={{ fontSize: "60px"}} /> 
               </a>
             </div>
           </div>

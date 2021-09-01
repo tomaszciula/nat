@@ -1,6 +1,6 @@
 import React from 'react';
 import './PortraitPhoto.css';
-import photo6 from '../assets/photo6.jpg';
+import photo6 from '../assets/nat.jpg';
 
 function PortraitPhoto() {
     return (
