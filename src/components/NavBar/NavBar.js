@@ -2,7 +2,8 @@ import React from "react";
 import {  Link } from "react-router-dom";
 import "./NavBar.css";
 
-const NavBar = ({text1, text2, text3}) => {
+const NavBar = ({text1, text2, text3, color}) => {
+
   return (
     <div>
       <ul className="wrapper">

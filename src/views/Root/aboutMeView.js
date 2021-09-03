@@ -28,7 +28,7 @@ function AboutMeView() {
     <>
       <div className="aboutMe__container">
         <div className="aboutMe__container--navbar">
-          <NavBar text1="Powrót" text2="Galeria" text3="Kontakt" />
+          <NavBar text1="Powrót" text2="Galeria" text3="Kontakt" color='white' />
         </div>
         <div className="aboutMe__container--container">
           <div className="aboutMe__container--container--text">

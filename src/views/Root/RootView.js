@@ -11,7 +11,7 @@ function Main() {
      <>
     
       <PortraitPhoto />
-      <NavBar text1='O mnie' text2='Galeria' text3='Kontakt' />
+      <NavBar text1='O mnie' text2='Galeria' text3='Kontakt' color="black"/>
      
       <div className="row">
           <div className="col-6">

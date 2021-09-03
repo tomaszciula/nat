@@ -11,7 +11,7 @@
 }
 
 a {
-    color: black;
+    color: black;  
     cursor: default;
     text-decoration: underline 0.07em rgba(150, 150, 150, .5);
     text-underline-offset: 0.2em;

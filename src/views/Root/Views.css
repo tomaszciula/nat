@@ -109,13 +109,20 @@ color: black;
     margin-right: 50px;
 
 }
+.aboutMe__container--navbar > a{
+    color: white;
+}
 .aboutMe__container--container--text{
+    background-color: rgba(169, 169, 169, 0.4);
+    padding: 30px;
+    border: solid 1px darkgrey;
+    border-radius: 8px;
     width: 50vw;
     margin: 30px;
 
 }
 .aboutMe__container--container--carousel{
-    
+
     justify-content: center;
     width: 50vw;
     margin: 30px;

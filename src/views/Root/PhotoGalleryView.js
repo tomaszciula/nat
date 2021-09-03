@@ -10,7 +10,7 @@ function PhotoGalleryView() {
     <>
     <div className='PhotoGalleryView__container'>
       <div className='PhotoGalleryView__container--navbar'>
-      <NavBar text1="Powrót" text2="O mnie" text3="Kontakt" />
+      <NavBar text1="Powrót" text2="O mnie" text3="Kontakt" color="black"/>
       </div>
       <div className="photoGalleryView__container">
         <Link to="/gallery/gallery1">
