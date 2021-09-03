@@ -5,7 +5,6 @@ import "./NavBar.css";
 const NavBar = ({text1, text2, text3, color}) => {
 
   return (
-    <div>
       <ul className="wrapper">
         <li>
           {text1==="O mnie" ? <Link to="/about">{text1}</Link> : <Link to="/">{text1}</Link>}
@@ -19,7 +18,6 @@ const NavBar = ({text1, text2, text3, color}) => {
       </ul>
 
    
-      </div>
   );
 }
 
