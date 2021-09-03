@@ -15,8 +15,9 @@ const ContactView = () => {
 
           <div className="contactView__container__wrapper--contactsWrapper">
             <div className="contactView__container__wrapper__contactsWrapper--contactElement">
+            <a href='tel:+48505146677'>
             <i className="icon-mobile-alt" style={{ fontSize: "80px"}} /> 
-            <h3>0 500 2 900</h3>
+            </a>
             </div>
             <div className="contactView__container__wrapper__contactsWrapper--contactElement">
             <a href='mailto: natalia.natalia@nat'>
